@@ -23,7 +23,7 @@ menu{
 }
 
 .row{
-    display: flex;
+    display: inline-block;
     flex-wrap: wrap;
 }
 
@@ -73,7 +73,9 @@ a.button{
     display: inline-block;
 }
 
-
+.button-outlined{
+    border: 1px solid currentColor;
+}
 
 /* RADIO INPUT */
 .radio-input{
@@ -95,6 +97,27 @@ a.button{
     border-color: #0061ff;
     border-width: 4px;
 }
+
+/* PARTNER */
+
+#partner .section-title{
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.partener-content{
+    padding-top: 50px;
+}
+
+.partener-content .button{
+    margin-top: 32px;
+}
+
+
+
+
+
+
 
 
 
@@ -212,8 +235,7 @@ a.button{
 
 .hero-content i{
     margin-top: auto;
-    font-size: 
-    64px;
+    font-size: 64px;
 }
 
 /* PLAN */
