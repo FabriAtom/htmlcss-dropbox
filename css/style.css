@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+ul,
+ol,
+menu{
+    list-style: none;
+
+}
+
+/* LAYOUT */
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.container-lg{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-header{
+    display: flex;
+    padding: 23px 18px;
+    align-items: center;
+}
+
+.main-header .menu{
+    display: flex;
+}
+
+.col{
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+
+.col-4{
+    flex-basis: calc(100% / 3);
+}
+
+.col-8{
+    flex-basis: calc(100% * 2 / 3);
+}
+
+.col-12{
+    flex-basis: calc(100% / 1);
+}
+
+
+/* COMPONENTS */
+.button{
+    line-height: 44px;
+    font-size: 18px;
+    padding: 0 16px;
+    text-align: center;
+}
+
+.button-blue{
+    background-color:#0061ff;
+    color: white;
+}
+
+a.button{
+    display: inline-block;
+}
+
+
+
+/* RADIO INPUT */
+.radio-input{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+
+.radio-input .circle{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #d1d1d4;
+    border-radius: 50%;
+}
+
+.radio-input.checked .circle{
+    border-color: #0061ff;
+    border-width: 4px;
+}
+
+
+
+/* PLAN CARD */
+
+.card{
+    border: 1px solid #DBDBDD;
+}
+
+.card-header{
+    border-bottom: 1px solid #DBDBDD;
+    padding: 13px 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card-body {
+    padding: 32px 24px;
+}
+
+.plan-title{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.plan-price{
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.plan-features{
+    margin-bottom: 40px;
+}
+
+.plan-features .feature{
+    /* display: flex;
+    gap: 8px; */
+    position: relative;
+    margin-bottom: 16px;
+    padding-left: 25px;
+}
+
+.plan-features .feature i{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.plan-frequency{
+    font-size: 14px;
+    color: #aaa;
+    margin-bottom: 40px;
+}
+
+
+.card .button{
+    width: 100%;
+    font-size: 16px;
+}
+/* NAV */
+.main-header{
+    display:flex;
+    padding: 23px 18px;
+    align-items: center;
+    gap: 18px;
+}
+
+.logo-wrapper
+
+.main-header .menu{
+    display: flex;
+}
+
+.main-header .main-nav{
+    margin-right: auto;
+}
+
+.main-header .menu-item a{
+    padding: 0 16px;
+    line-height: 35px;
+    display: block;
+}
+
+.main-header .menu-item .button-start{
+    background-color: #0061ff;
+    color: white;
+}
+
+
+/* HERO */
+
+#hero {
+    background-color: #b4d0e7;
+    padding-top: 100px;
+}
+
+.hero-title{
+    font-size: 74px;
+    margin-bottom: 48px;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+    position: relative;
+    padding-bottom: 20px;
+
+}
+
+.hero-content i{
+    margin-top: auto;
+    font-size: 
+    64px;
+}
+
+/* PLAN */
+
+.section-title{
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 48px;
+}
+
+#plan{
+    padding: 160px 0 72px;
+}
+
+.radio-wrapper{
+    gap:64px;   
+}
+
+.card-wrapper{
+    gap: 50%;
+}
+
+.card-wrapper *{
+    border: 1px solid black;
+    padding: 20px;
+
+}
+
+
+
