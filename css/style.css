@@ -23,7 +23,7 @@ menu{
 }
 
 .row{
-    display: inline-block;
+    display:flex;
     flex-wrap: wrap;
 }
 
@@ -107,14 +107,16 @@ a.button{
 
 .partener-content{
     padding-top: 50px;
+    padding-left: 50px;
 }
 
 .partener-content .button{
     margin-top: 32px;
 }
 
-
-
+.flex-image{
+    width: 100%;
+}
 
 
 
@@ -266,3 +268,12 @@ a.button{
 
 
 
+
+
+/* GRID */
+
+#grid{
+    gap: 50px;
+}
+
+.
