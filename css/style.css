@@ -17,6 +17,10 @@ menu{
     margin: 0 auto;
 }
 
+.section{
+    padding:70px 0;
+}
+
 .container-lg{
     max-width: 1200px;
     margin: 0 auto;
@@ -55,6 +59,9 @@ menu{
     flex-basis: calc(100% / 1);
 }
 
+.menu-item a{
+    text-decoration: none;
+}
 
 /* COMPONENTS */
 .button{
@@ -71,6 +78,10 @@ menu{
 
 a.button{
     display: inline-block;
+}
+
+.hero-content a{
+    text-decoration: none;
 }
 
 .button-outlined{
@@ -191,7 +202,6 @@ a.button{
     gap: 18px;
 }
 
-.logo-wrapper
 
 .main-header .menu{
     display: flex;
@@ -272,8 +282,33 @@ a.button{
 
 /* GRID */
 
-#grid{
+#grid .row{
     gap: 50px;
 }
 
-.
+.image-grid{
+    width: 100px;
+}
+
+.grid .section-title{
+    margin-bottom: 20px;
+}
+
+.feature-title, 
+.card-feature-header{
+    font-size: 24px;
+}
+
+
+
+#grid .row{
+    gap: 50px;
+
+}
+
+
+#grid .col{
+    min-width:250px;
+    border: 2px solid salmon;
+
+}
